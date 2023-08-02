@@ -17,6 +17,15 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
                 <span className={ styles.label }>Learn more</span>
               </a>
             </div>
+
+            <div className={ styles.column }>
+              <span className={ styles.title }>Welcome to KARTHICKKANNAN!</span>
+              <p className={ styles.subTitle }>Customize KARTHICKKANNAN SharePoint experiences using Web Parts.</p>
+              <p className={ styles.description }>{escape(this.props.description)}</p>
+              <a href="https://aka.ms/spfx" className={ styles.button }>
+                <span className={ styles.label }>Learn more</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
